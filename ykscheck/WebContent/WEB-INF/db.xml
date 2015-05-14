@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<bean name="mysql">
+    <property name="driver">com.mysql.jdbc.Driver</property>
+    <property name="url">jdbc:mysql://localhost:3306/yks?useUnicode=true&amp;characterEncoding=utf8</property>
+    <property name="userName">root</property>
+    <property name="password">root</property>
+    <property name="maxsize">100</property>
+</bean>

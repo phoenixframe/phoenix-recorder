@@ -1,14 +1,14 @@
 # phoenix-recorder
-Java版的屏幕录制引擎，并能将录制后的视频压缩转换成wmv，mp4等格式
-启动方法：phoenix.record.run.recorder.ScreenRecorderMain.start
-停止方法：phoenix.record.run.recorder.ScreenRecorderMain.sttop
-
-使用方法示例：
-ScreenRecorderMain screenRecorderMain = new ScreenRecorderMain();
-screenRecorderMain.start();
+Java版的屏幕录制引擎，并能将录制后的视频压缩转换成wmv，mp4等格式<br>
+<br>启动方法：phoenix.record.run.recorder.ScreenRecorderMain.start
+<br>停止方法：phoenix.record.run.recorder.ScreenRecorderMain.sttop
+<br>
+使用方法示例：<br>
+ScreenRecorderMain screenRecorderMain = new ScreenRecorderMain();<br>
+screenRecorderMain.start();<br>
 ......
 screenRecorderMain.stop();
-
+<br>
 实现原理
 
 1.通过java自带的robot方法按一定频率进行截屏，先驻留内存中

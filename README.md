@@ -6,7 +6,7 @@ Java版的屏幕录制引擎，并能将录制后的视频压缩转换成wmv，m
 使用方法示例：<br>
 ScreenRecorderMain screenRecorderMain = new ScreenRecorderMain();<br>
 screenRecorderMain.start();<br>
-......
+......<br>
 screenRecorderMain.stop();
 <br>
 实现原理

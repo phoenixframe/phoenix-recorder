@@ -286,7 +286,7 @@
 						</div>
 						<div class="pageFormContent" layoutH="80" style="margin-right:0px">
 						<div class="pageFormContent">
-							<h2>系统升级日志:</h2>
+							<h2>用例管理及并发测试系统升级日志:</h2>
 							<div class="divider"></div>
 							<div class="unit">1、后台开发完成，支持Jenkins部署  2014.8.1</div>
 							<div class="unit">2、完成用例类型、用例、节点、数据、请求参数、视频vid，Host地址数据的维护页面   2014.8.7</div>
